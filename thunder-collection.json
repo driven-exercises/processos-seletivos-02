@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "topnews - firsthand",
+    "dateExported": "2023-11-07T22:39:43.006Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "41df21ef-f126-45f9-b1aa-6c86bd0665ce",
+            "colId": "ec187973-7258-4792-afec-a4fe34832ed1",
+            "containerId": "",
+            "name": "GET /news",
+            "url": "http://localhost:3000/news",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-07T22:39:04.646Z",
+            "modified": "2023-11-07T22:39:04.646Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "49f2a8ca-3433-401a-bd7e-ed1f160db1d4",
+            "colId": "ec187973-7258-4792-afec-a4fe34832ed1",
+            "containerId": "",
+            "name": "GET /news/:id",
+            "url": "http://localhost:3000/news/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-07T22:39:04.647Z",
+            "modified": "2023-11-07T22:39:04.647Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "64f8ae0b-e65a-461d-b4e2-9a5f7049142e",
+            "colId": "ec187973-7258-4792-afec-a4fe34832ed1",
+            "containerId": "",
+            "name": "POST /news",
+            "url": "http://localhost:3000/news",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-07T22:39:04.648Z",
+            "modified": "2023-11-07T22:39:04.648Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"title\",\n  \"text\": \"text\",\n  \"author\": \"author\",\n  \"firstHand\": false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3882c5bd-90bd-4099-b477-797eeba5cd6b",
+            "colId": "ec187973-7258-4792-afec-a4fe34832ed1",
+            "containerId": "",
+            "name": "PUT /news/:id",
+            "url": "http://localhost:3000/news/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-11-07T22:39:04.649Z",
+            "modified": "2023-11-07T22:39:04.649Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"title 2\",\n  \"text\": \"text 2\",\n  \"author\": \"author 2\",\n  \"firstHand\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8886d9e-ad78-4c11-a710-d02dbf96da60",
+            "colId": "ec187973-7258-4792-afec-a4fe34832ed1",
+            "containerId": "",
+            "name": "DELETE /news/:id",
+            "url": "http://localhost:3000/news/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-11-07T22:39:04.650Z",
+            "modified": "2023-11-07T22:39:04.650Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
