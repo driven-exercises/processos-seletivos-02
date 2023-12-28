@@ -30,7 +30,7 @@
       - Esta rota deve cadastrar uma nova notícia.
       - Formato:
           
-          ```json
+          ```js
           title: string
           text: string
           author: string
@@ -42,7 +42,7 @@
       - Esta rota deve alterar os dados de uma notícia.
       - Formato:
           
-          ```json
+          ```js
           title: string
           text: string
           author: string
