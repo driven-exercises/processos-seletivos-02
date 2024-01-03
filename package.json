@@ -8,6 +8,9 @@
     "start": "node src/server.js",
     "test": "dotenv -e .env.test prisma migrate deploy & dotenv -e .env.test jest -- -i"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
